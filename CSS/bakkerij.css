@@ -1,0 +1,46 @@
+	body {
+		background-color: white;
+		font-family: Comic Sans, Geneva, Arial, sans-serif; /* font family staat voor het letter type*/
+		text-align: center;
+		color: #8b4513;
+		font-size: 14px;
+	}
+	.KOP {
+		background-color: #8b4513;
+		columns: 3;
+		display: flex; /*zorgt voor kolommen*/
+		gap: 1em;
+		flex-wrap: wrap;
+		color: white;
+		text-align: center;
+		vertical-align: baseline;
+		}
+	.KOP >* {
+		flex: 1 1 10em;
+
+	}
+	#contactgegevens {
+		text-align: left;
+	}
+
+	.center{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+		
+		
+		.verwijzingen{
+		font-size: 20px;
+	}
+	h1{ 
+		font-size: 50px;
+	}
+
+	li{
+		text-align : left;
+		color: Brown;
+		font-weight: bold;
+		font-size: 25px;
+	}
+
